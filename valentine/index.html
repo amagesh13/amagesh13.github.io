@@ -1,1 +1,141 @@
-test stuff
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valentine's Day</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </head>
+
+    <audio id="background-audio" autoplay loop>
+        <source src="./assets/Kanye West - Never See Me Again - High Quality Vocals  Orchestral Intro.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <body class="bg-pink-200 overflow-x-hidden">
+        
+
+        <!-- First Section -->
+        <div id="heart-container" class="w-full flex items-center justify-center mt-40">
+            <!-- Left Side: Image -->
+            <img src="./assets/sara1.jpg" class="animate__animated w-full max-w-[35%] h-auto mr-12 rounded-3xl z-10">
+        
+            <!-- Right Side: Text -->
+            <div class="max-w-[40%] z-10">
+                <h1 id="valentine" class="animate__animated animate__fadeInDown text-4xl font-bold text-red-600">
+                    Will you be my Valentine? ❤️
+                </h1>
+
+                <button id="love" class="animate__animated animate__fadeIn animate__delay-1s button-1 mt-5 active:bg-red-200" role="button">
+                    Yes 🤭
+                </button>
+                <a target="_blank" href="https://www.youtube.com/watch?v=J9BZuizEOzY">
+                    <button class="button-1 ml-3 mt-5 animate__animated animate__fadeIn animate__delay-1s" role="button">
+                        Maybe 🤣
+                    </button>
+                </a>
+            </div>
+        </div>  
+
+        <!-- Second Section -->
+        <div id="heart-container" class="w-full flex items-center justify-center mt-20">
+            <!-- Left Side: Text -->
+            <div class="max-w-[40%] mr-16">
+                <p class="text-2xl font text-gray-700 mb-4"><em>“Take lots of pictures. Not of sights. Don't take pictures of buildings. Take pictures of moments, because that's what matters” - Shawn Spencer, Psych</em>
+                <hr>
+                <p>I'll leave the soppy stuff for later, but happy valentines, birthday, and wowie 8 months? That gets three big <strong>booms</strong>! But anyways, enjoy this slideshow of my favorite moments of <strong>us</strong>. Pictures like these mean a 1000 words. "Hang it up in the louvre!". You might think they are lowkey cringe, but I love them and they keep me going no matter how down I am. To many more, your pal - Amrit</p>
+
+            </div>
+
+            <!-- Right Side: Swiper Carousel -->
+            <div class="relative mb-10 w-96 z-11"> <!-- Adjust width here -->
+                <div class="swiper mySwiper rounded-3xl ">
+                    <div class="swiper-wrapper">
+                        <!-- Add images from sara1.jpg to sara22.jpg -->
+                        <div class="swiper-slide">
+                            <img src="./assets/sara1.jpg" alt="Photo 1" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara2.jpg" alt="Photo 2" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara3.jpg" alt="Photo 3" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara4.jpg" alt="Photo 4" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara5.jpg" alt="Photo 5" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara6.jpg" alt="Photo 6" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara7.jpg" alt="Photo 7" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara8.jpg" alt="Photo 8" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara9.jpg" alt="Photo 9" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara10.jpg" alt="Photo 10" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara11.jpg" alt="Photo 11" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara12.jpg" alt="Photo 12" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara13.jpg" alt="Photo 13" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara14.jpg" alt="Photo 14" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara15.jpg" alt="Photo 15" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara16.heic" alt="Photo 16" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara17.heic" alt="Photo 17" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara18.heic" alt="Photo 18" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara19.heic" alt="Photo 19" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara20.heic" alt="Photo 20" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara21.heic" alt="Photo 21" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/sara22.heic" alt="Photo 22" class="w-full h-72 object-cover rounded-3xl">
+                        </div>
+                    </div>
+                    
+
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
